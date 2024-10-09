@@ -1,23 +1,16 @@
-import { Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Francis from "./francis/Francis";
-import Jerome from "./jerome/Jerome";
-import Joshua from "./joshua/Joshua";
-import Stephanie from "./stephanie/Stephanie";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" />
-        <Route path="/francis" element={<Francis />} />
-        <Route path="/jerome" element={<Jerome />} />
-        <Route path="/joshua" element={<Joshua />} />
-        <Route path="/stephanie" element={<Stephanie />} />
-      </Routes>
+      <h1>sheesh</h1>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
