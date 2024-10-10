@@ -5,3 +5,9 @@
 a{
   @apply text-red-600 hover:underline text-2xl
 }
+input {
+  @apply border-2 border-black
+}
+button{
+  @apply border p-2
+}
