@@ -1,4 +1,4 @@
-body{
+.mainctn{
     overflow: hidden;
 }
 .mainctn{
@@ -34,7 +34,7 @@ body{
 .passLabel{
     margin-top: 10px;
 }
-input{
+.mainctn input{
     text-align: center;
     border-radius: 5px;
     height: 35px;
