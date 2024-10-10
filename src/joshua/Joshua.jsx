@@ -10,6 +10,7 @@ export default function Joshua() {
     console.log(username);  
     if(username == "admin" && userpass == "admin"){
       console.log("Login Success")
+      window.location.href = "/jerome";
     }else{
       console.log("Login Fail")
     }
@@ -17,20 +18,20 @@ export default function Joshua() {
 
   return (
     <>
-      <div class="mainctn">
+      <div className="mainctn">
       
-        <div class="titlectn">
+        <div className="titlectn">
           <h1>LOGIN PAGE</h1>
         </div>
 
-        <div class="loginctn">
+        <div className="loginctn">
 
-          <form class="formctn" onSubmit={handleSubmit}>
-            <label class="nameLabel">Username </label>
-            <input value={username} onChange={(e) => setUsername(e.target.value)} name="username" class="nameInput" type="text" required placeholder="Username"></input>
-            <label class="passLabel">Password </label>
-            <input value={userpass} onChange={(e) => setUserPass(e.target.value)} name="userpass" class="passInput" type="password" required placeholder="Password" minLength={5}></input>
-            <button class="loginbtn" type="submit">Login</button>
+          <form className="formctn" onSubmit={handleSubmit}>
+            <label className="nameLabel">Username </label>
+            <input value={username} onChange={(e) => setUsername(e.target.value)} name="username" className="nameInput" type="text" required placeholder="Username"></input>
+            <label className="passLabel">Password </label>
+            <input value={userpass} onChange={(e) => setUserPass(e.target.value)} name="userpass" className="passInput" type="password" required placeholder="Password" minLength={5}></input>
+            <button className="loginbtn" type="submit">Login</button>
           </form>
         </div>
       </div>
