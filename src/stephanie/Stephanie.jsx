@@ -1,7 +1,7 @@
 export default function Stephanie(){
   return (
     <>
-      <h1>Stephanie</h1>
+      <h2>Stephanie</h2>
     </>
   );
 }
