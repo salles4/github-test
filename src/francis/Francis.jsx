@@ -7,7 +7,7 @@ import Mongo from "./Mongo";
 export default function Francis() {
   return (
     <>
-      <div className="flex justify-center gap-12 my-2">
+      <div className="flex justify-center gap-12 my-2 bg-slate-500">
         <NavLink to="/francis/Joke">JokesAPI</NavLink>
         <NavLink to="/francis/Pokemon">PokeAPI</NavLink>
         <NavLink to="/francis/Mongo">MongoDB</NavLink>

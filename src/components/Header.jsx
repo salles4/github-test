@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header(){
   return (
@@ -9,10 +9,10 @@ export default function Header(){
           <small>https://github.com/salles4/github-test</small>
         </div>
         <div className="flex justify-center gap-12">
-          <Link to="/francis">Francis</Link>
-          <Link to="/jerome">Jerome</Link>
-          <Link to="/joshua">Joshua</Link>
-          <Link to="/stephanie">Stephanie</Link>
+          <NavLink to="/francis">Francis</NavLink>
+          <NavLink to="/jerome">Jerome</NavLink>
+          <NavLink to="/joshua">Joshua</NavLink>
+          <NavLink to="/stephanie">Stephanie</NavLink>
         </div>
       </div>
     </>
