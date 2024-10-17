@@ -8,7 +8,6 @@ export default function PokeAPI() {
   const [element, setElement] = useState([]);
   const [selectedElement, setSelectedElement] = useState("normal");
 
-  // axios.get(`https://pokeapi.co/api/v2/pokemon?limit=${count}`)
   useEffect(() => {
     axios
       .get(`https://pokeapi.co/api/v2/type/${selectedElement}`)
